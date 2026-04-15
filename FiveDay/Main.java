@@ -9,6 +9,7 @@ public class Main {
             new Horista("Lucas", 2, 52.03, 44),
             new Comissionado("Daniel", 3, 1621, 0.1, 10000)
         };
+        
         double soma = 0;
         for (int i = 0; i < func.length; i++) {
             double salario = func[i].calcularSalario();
