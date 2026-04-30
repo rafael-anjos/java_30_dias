@@ -23,7 +23,7 @@ public class Busca {
     public void buscaBinaria(int[] arr, int alvo){
         int comp = 0;
         int temp = 0;
-        int inicio = 0; int fim = arr.length - 1; int meio = 0;
+        int inicio = 0; int fim = arr.length - 1; int meio;
         boolean contem = false;
         while (inicio <= fim){
             comp++;
